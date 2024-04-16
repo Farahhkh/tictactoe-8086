@@ -1,5 +1,5 @@
-; Roberto Luiz Debarba <roberto.debarba@gmail.com>, 2015
-; 8086 Assembly, emu8086
+; By:
+; Farah Khafate (A00159), Maryam Alshaikh (A00217) & Amna Bubeshait (A00723)
 
 data segment       
     new_line db 13, 10, "$"
@@ -13,10 +13,10 @@ data segment
     win_flag db 0 
     player db "0$" 
     
-    game_over_message db "FIM DE JOGO", 13, 10, "$"    
-    game_start_message db "JOGO DA VELHA (TIC TAC TOE) by Roberto Luiz Debarba", 13, 10, "$"
+    game_over_message db "GAME OVER!", 13, 10, "$"    
+    game_start_message db "TIC-TAC-TOE by Farah Khafate, Maryam Alshaikh & Amna Bubeshait", 13, 10, "$"
     player_message db "PLAYER $"   
-    win_message db " WIN!$"   
+    win_message db " YOU WON!$"   
     type_message db "TYPE A POSITION: $"
 ends
 
