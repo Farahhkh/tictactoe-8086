@@ -302,7 +302,7 @@ game_over:
     lea     dx, win_message
     call    print 
 
-    jmp     fim    
+    jmp     end_game    
   
      
 set_game_pointer:
@@ -358,8 +358,8 @@ read_keyboard:  ; read keybord and return content in ah
     ret      
       
       
-fim:
-    jmp     fim         
+end_game:
+    jmp     end_game         
       
 code ends
 
